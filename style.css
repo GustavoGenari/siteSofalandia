@@ -40,7 +40,7 @@ header{
 .menu {
     display: flex;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 600;
     color: #3a3a3a;
 }
@@ -50,7 +50,7 @@ header{
     align-items: center;
     border-bottom: solid 0.5px #0ACBF5;
     height: 80px;
-    margin: 0px 30px;
+    margin: 0px 20px;
     transition: all .3s;
 }
 
@@ -67,6 +67,86 @@ header{
 main {
     background-color: #CCC;
     flex: 1;
+}
+
+.banner-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-image: url(img-fundo-op.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+
+.banner-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 16px;
+}
+
+.banner-sentence{
+    font-size: 12px;
+}
+
+.banner-sentence::before {
+    content: '-';
+    margin-right: 8px;
+    color: #0ACBF5;
+    font-size: 20px;
+}
+
+.budget-button-area {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.budget-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0ACBF5;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.budget-button:hover {
+    background-color: #FFF;
+    color: #0ACBF5;
+    transition: all .6s;
+}
+
+.banner-seal {
+    display: flex;
+    width: 200px;
+    justify-content: end;
+    padding-top: 5px;
+}
+
+#prod-bio {
+    width: 80px;
+    height: 80px;
 }
 
 /* estilização do FOOTER*/

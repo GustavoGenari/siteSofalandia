@@ -131,8 +131,10 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #0ACBF5;
+    color: #FFF;
     width: 200px;
     height: 50px;
+    text-decoration: none;
     border-radius: 10px;
     text-transform: uppercase;
     font-size: 14px;
@@ -177,6 +179,10 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 60px;
     border-bottom: solid 2px #0ACBF5;
+}
+
+.box-title-projects a {
+    text-decoration: none;
 }
 
 .box-photos-projects {
@@ -273,7 +279,6 @@ h2 {
 }
 
 .services-box {
-    background-image: url(fotos/SOFALANDIA.png);
     background-size: cover;
     position: relative;
     display: flex;
@@ -287,6 +292,33 @@ h2 {
     padding: 10px;
     border: solid 2px #0ACBF5;
     border-radius: 10px;
+}
+
+.services-container .img-sofa {
+    background-image: url(fotos/limpezaSofa.jpeg);
+    background-size: cover;
+}
+.services-container .img-curtain {
+    background-image: url(fotos/limpezaSofa.jpeg);
+    background-size: cover;
+}
+.services-container .img-mattress {
+    background-image: url(fotos/limpezaColchao.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.services-container .img-mat {
+    background-image: url(fotos/limpezaCarpete.jpeg);
+    background-size: cover;
+}
+.services-container .img-glass {
+    background-image: url(fotos/limpezaVidro.jpeg);
+    background-size: cover;
+}
+.services-container .img-floor {
+    background-image: url(fotos/limpezaPiso.jpeg);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .services-box::before {

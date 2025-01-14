@@ -60,6 +60,7 @@ header{
     height: 80px;
     margin: 0px 20px;
     transition: all .2s;
+    text-decoration: none;
 }
 
 .menu-area:hover {
@@ -69,6 +70,8 @@ header{
 
 .menu-button {
     padding: 0px 10px;
+    text-decoration: none;
+    color: #555;
 }
 
 /* estilização do MAIN*/
@@ -410,4 +413,36 @@ footer {
 .copy {
     text-align: center;
     margin: 20px 0px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-area {
+        text-align: center;
+    }
+
+    .box-photos-projects, .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .budget-button {
+        width: 100%;
+    }
+
+    .services-box {
+        width: 100%;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+    }
 }
